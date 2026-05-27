@@ -22,10 +22,10 @@ Regulatory compliance verification is traditionally a manual, slow, and error-pr
 ![Compliance Platform Main Interface](Images/CE1.png)
 
 #### Live Corporate Risk Analysis (e.g., Argos Limited Report)
-![Live Compliance Report In Action](YOUR_IMAGE_PATH_HERE/image_23c1c7.png)
+![Live Compliance Report In Action](Images/CE2.png)
 
 #### Deep-Dive Statutory Findings & Remediation Steps
-![Detailed Compliance Findings View](YOUR_IMAGE_PATH_HERE/image_23c1e4.jpg)
+![Detailed Compliance Findings View](Images/CE3.png)
 
 ---
 
@@ -58,13 +58,13 @@ Non-technical business teams lose hundreds of collective hours copying, pasting,
 *Place your high-resolution platform screenshots here to demonstrate the visual execution.*
 
 #### Main Pipeline Interface
-![ArqX Main Interface Page](YOUR_IMAGE_PATH_HERE/image_23c52a.jpg)
+![ArqX Main Interface Page](Images/AQ1.png)
 
 #### The Modular Tool Gallery Hub
-![Tool Gallery Hub Page](YOUR_IMAGE_PATH_HERE/image_23c549.jpg)
+![Tool Gallery Hub Page](Images/AQ2.png)
 
 #### Micro-Tool Ingestion Processing Pipeline (e.g., Image Lab)
-![Active Conversion Pipeline View](YOUR_IMAGE_PATH_HERE/image_23c5a5.jpg)
+![Active Conversion Pipeline View](Images/AQ3.png)
 
 ---
 
@@ -97,10 +97,10 @@ Managing vague, unstructured project tracking logs often leads to information lo
 *Place your high-resolution platform screenshots here to demonstrate the visual execution.*
 
 #### Journal Insights & Frequency Tracker
-![NoctaX Journal Analytics Dashboard](YOUR_IMAGE_PATH_HERE/image_23cd63.png)
+![NoctaX Journal Analytics Dashboard](Images/NX1.png)
 
 #### Project State & Research Analytics View
-![NoctaX Research Tracking View](YOUR_IMAGE_PATH_HERE/image_23cd84.jpg)
+![NoctaX Research Tracking View](Images/NX2.png)
 
 ---
 

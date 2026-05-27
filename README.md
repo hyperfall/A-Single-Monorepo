@@ -1,6 +1,6 @@
 # Project Showcase
 
-A GitHub-friendly version of the project write-up using pure Markdown so headings, lists, and inline image previews render properly on repository pages.
+A GitHub-friendly version of the project write-up using pure Markdown so headings, lists, clickable image links, and inline image previews render properly on repository pages.
 
 ***
 
@@ -27,12 +27,18 @@ Regulatory compliance verification is traditionally a manual, slow, and error-pr
 ## Product Interface & Live Audits
 
 ### Executive Dashboard Overview
+[Open image](Images/CE1.png)
+
 
 
 ### Live Corporate Risk Analysis
+[Open image](Images/CE2.png)
+
 
 
 ### Deep-Dive Statutory Findings & Remediation Steps
+[Open image](Images/CE3.png)
+
 
 
 ## Key Technical Features & Logic
@@ -66,12 +72,18 @@ Non-technical business teams lose hundreds of collective hours copying, pasting,
 ## Interface & Tool Gallery View
 
 ### Main Pipeline Interface
+[Open image](Images/AQ1.png)
+
 
 
 ### The Modular Tool Gallery Hub
+[Open image](Images/AQ2.png)
+
 
 
 ### Micro-Tool Ingestion Processing Pipeline
+[Open image](Images/AQ3.png)
+
 
 
 ## Key Technical Features & Logic
@@ -105,9 +117,13 @@ Managing vague, unstructured project tracking logs often leads to information lo
 ## Dashboard & Analytics Previews
 
 ### Journal Insights & Frequency Tracker
+[Open image](Images/NX1.png)
+
 
 
 ### Project State & Research Analytics View
+[Open image](Images/NX2.png)
+
 
 
 ## Key Technical Features & Logic

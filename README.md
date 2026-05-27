@@ -1,115 +1,159 @@
-1. 🏛️ ComplianceEngine (Compliance Intelligence Platform)
-# Compliance Intelligence Platform (ComplianceEngine)
+# <span style="font-size:2.2rem; color:#e5e7eb;">Project Showcase</span>
 
+<p style="font-size:1.05rem; color:#94a3b8; margin-top:-0.4rem;">
+Three polished product case studies presented with a cleaner visual hierarchy, modern dark-mode styling, and preserved image paths.
+</p>
+
+***
+
+<section style="padding:1.25rem; border:1px solid #1f2937; border-radius:18px; background:linear-gradient(180deg,#0f172a 0%,#111827 100%); margin:1.25rem 0;">
+
+# <span style="font-size:2rem; color:#f8fafc;">🏛️ ComplianceEngine</span>
+
+<p style="font-size:1.1rem; color:#38bdf8;"><strong>Compliance Intelligence Platform</strong></p>
+
+<p style="font-size:1rem; color:#cbd5e1; line-height:1.8;">
 An enterprise-grade, data-driven compliance orchestration engine built to transform messy Companies House filings into executive-grade audits with explainable scoring, statutory mappings, and automated remediation workflows.
+</p>
 
-## 🚀 The Core Problem
-Regulatory compliance verification is traditionally a manual, slow, and error-prone process. Navigating fragmented datasets across Companies House, GDPR frameworks, and national labor laws makes it difficult for audit committees to quickly isolate risk and quantify financial exposure.
+## <span style="color:#f9fafb; font-size:1.35rem;">The Core Problem</span>
 
-## ⚡ The Solution & Architecture
-`ComplianceEngine` implements a **Three-Tier Evidence Pipeline** to systematically ingest, analyze, and surface corporate regulatory risk into a clean, unified dashboard:
+<p style="color:#cbd5e1; font-size:1rem; line-height:1.8;">
+Regulatory compliance verification is traditionally manual, slow, and error-prone. Navigating fragmented datasets across Companies House, GDPR frameworks, and national labor laws makes it difficult for audit committees to isolate risk quickly and quantify financial exposure.
+</p>
 
-* **Tier 1: Structured Filings (100% Deterministic)** — Direct mapping and structural tag delivery against exact statutory thresholds (Companies Act sizing, Confirmation Statements).
-* **Tier 2: Narrative Evidence (85% Explainable)** — Regex and semantic extraction pipelines to capture audit exemption statements and going-concern flags.
-* **Tier 3: Complex Documents (70% Vision)** — Image/ICR ingestion layers (powered by AWS Textract) to reconstruct layout tables from physical scans, aligning handwritten disclosures directly to statutory rules.
+## <span style="color:#f9fafb; font-size:1.35rem;">Solution & Architecture</span>
 
----
+<p style="color:#cbd5e1; font-size:1rem; line-height:1.8;">
+<code>ComplianceEngine</code> implements a <strong>Three-Tier Evidence Pipeline</strong> that ingests, analyzes, and surfaces regulatory risk through a clean, unified audit dashboard.
+</p>
 
-### 📸 Product Interface & Live Audits
-*Place your high-resolution platform screenshots here to demonstrate the visual execution.*
+### <span style="color:#7dd3fc;">Three-Tier Evidence Pipeline</span>
 
-#### Executive Dashboard Overview
-![Compliance Platform Main Interface](Images/CE1.png)
+- <span style="color:#e5e7eb;"><strong>Tier 1: Structured Filings (100% Deterministic)</strong></span> — Direct mapping and structural tag delivery against exact statutory thresholds, including Companies Act sizing and Confirmation Statements.
+- <span style="color:#e5e7eb;"><strong>Tier 2: Narrative Evidence (85% Explainable)</strong></span> — Regex and semantic extraction pipelines capture audit exemption statements and going-concern flags.
+- <span style="color:#e5e7eb;"><strong>Tier 3: Complex Documents (70% Vision)</strong></span> — Image and ICR ingestion layers powered by AWS Textract reconstruct layout tables from physical scans and align handwritten disclosures to statutory rules.
 
-#### Live Corporate Risk Analysis (e.g., Argos Limited Report)
-![Live Compliance Report In Action](Images/CE2.png)
+## <span style="color:#f9fafb; font-size:1.35rem;">Product Interface</span>
 
-#### Deep-Dive Statutory Findings & Remediation Steps
-![Detailed Compliance Findings View](Images/CE3.png)
+<p style="color:#94a3b8; font-size:0.98rem;">High-resolution platform screenshots preserved below.</p>
 
----
-
-## 🛠️ Key Technical Features & Logic
-* **Dynamic Exposure Modeling:** Calculates a severity-weighted "Compliance Score" alongside real-time monetary penalty predictions (e.g., Expected Value Modelled Exposure calculations).
-* **Defensive Failure Protocols:** Engineered with rigorous error boundaries; if a file scan fails validation, the system generates clear, traceable fault diagnoses rather than silently dropping data.
-* **SOP Alignment:** Designed around high-compliance operations, minimizing human intervention to guarantee a repeatable, zero-defect process pipeline.
-
-## 🧰 Tech Stack Emulated
-* **Backend Data Layers:** Python, PostgreSQL, Structured RegEx Data Pipelines
-* **OCR/ICR Ingestion:** AWS Textract, Computer Vision Pipelines
-* **Frontend Analytics:** Modern UI Engineering, Tailwind CSS Data Visualizations
+### <span style="color:#c084fc;">Executive Dashboard Overview</span>
 
 
-2. ⚡ ArqX (AI-Powered File & Tool Automation Pipeline)
-
-# ArqX — AI-Powered Tool & File Conversion Hub
-
-A robust, modular automated pipeline designed to let users create and discover custom business tools using natural language, featuring a high-speed, deterministic processing architecture.
-
-## 🚀 The Core Problem
-Non-technical business teams lose hundreds of collective hours copying, pasting, and manually converting mismatched media and text formats because disjointed software platforms refuse to talk to one another cleanly.
-
-## ⚡ The Solution & Architecture
-`ArqX` serves as an intelligent internal developer platform. It acts as an abstraction layer where complex, messy scripts are wrapped into single-purpose micro-tools that any team member can trigger via a clean UI gallery or simple natural language prompts.
-
----
-
-### 📸 Interface & Tool Gallery View
-*Place your high-resolution platform screenshots here to demonstrate the visual execution.*
-
-#### Main Pipeline Interface
-![ArqX Main Interface Page](Images/AQ1.png)
-
-#### The Modular Tool Gallery Hub
-![Tool Gallery Hub Page](Images/AQ2.png)
-
-#### Micro-Tool Ingestion Processing Pipeline (e.g., Image Lab)
-![Active Conversion Pipeline View](Images/AQ3.png)
-
----
-
-## 🛠️ Key Technical Features & Logic
-* **Modular Tool Ingestion Gallery:** Contains pre-engineered processing units including `Image Lab` (batch SVG/AVIF/WebP optimization), `Text Lab` (structured JSON/CSV/XML parsing), and `PDF Merger Pro` with custom page sequencing.
-* **High-Speed Deterministic Pipeline:** Built utilizing TypeScript and WebAssembly (WASM) boundaries to guarantee completely isolated, secure, and rapid file manipulations.
-* **Defensive Error Protocols:** Designed with robust data sanitization rules to handle corrupted inputs gracefully, ensuring pipeline stability under heavy operational pressure.
-
-## 🧰 Tech Stack Emulated
-* **Core Frameworks:** TypeScript, JavaScript, WebAssembly (WASM) modules
-* **Automation Engineering:** Batch processing pipelines, structural data normalization layers
-* **UI/UX Infrastructure:** High-fidelity dark mode, real-time conversion timeline trackers
+### <span style="color:#c084fc;">Live Corporate Risk Analysis</span>
 
 
-3. 📓 NoctaX (Advanced Research & Analytics Journal)
+### <span style="color:#c084fc;">Statutory Findings & Remediation</span>
 
-# NoctaX — Advanced Research & Metrics Journal
 
-A beautifully designed, local-first internal data management dashboard designed to log, structure, and visualize multi-dimensional qualitative tracking entries and asynchronous research analytics.
+## <span style="color:#f9fafb; font-size:1.35rem;">Technical Highlights</span>
 
-## 🚀 The Core Problem
-Managing vague, unstructured project tracking logs often leads to information loss. Without data indexing and quantitative visualization, tracking long-term trends across continuous research projects becomes impossible.
+- <span style="color:#e5e7eb;"><strong>Dynamic Exposure Modeling</strong></span> — Calculates a severity-weighted Compliance Score and real-time monetary penalty predictions using expected-value exposure logic.
+- <span style="color:#e5e7eb;"><strong>Defensive Failure Protocols</strong></span> — Produces clear, traceable fault diagnostics when file scans fail validation instead of silently dropping evidence.
+- <span style="color:#e5e7eb;"><strong>SOP Alignment</strong></span> — Designed for high-compliance operations with repeatable, low-intervention workflows.
 
-## ⚡ The Solution & Architecture
-`NoctaX` structures messy qualitative data feeds into an interactive, analytics-driven control room. It provides immediately digestible data insights—such as entry heatmaps and priority matrices—bridging the gap between raw textual logging and deep trends analysis.
+## <span style="color:#f9fafb; font-size:1.35rem;">Tech Stack</span>
 
----
+- <span style="color:#93c5fd;"><strong>Backend Data Layers:</strong></span> Python, PostgreSQL, structured RegEx data pipelines
+- <span style="color:#93c5fd;"><strong>OCR / ICR Ingestion:</strong></span> AWS Textract, computer vision pipelines
+- <span style="color:#93c5fd;"><strong>Frontend Analytics:</strong></span> Modern UI engineering, Tailwind CSS data visualizations
 
-### 📸 Dashboard & Analytics Previews
-*Place your high-resolution platform screenshots here to demonstrate the visual execution.*
+</section>
 
-#### Journal Insights & Frequency Tracker
-![NoctaX Journal Analytics Dashboard](Images/NX1.png)
+***
 
-#### Project State & Research Analytics View
-![NoctaX Research Tracking View](Images/NX2.png)
+<section style="padding:1.25rem; border:1px solid #1f2937; border-radius:18px; background:linear-gradient(180deg,#111827 0%,#0f172a 100%); margin:1.25rem 0;">
 
----
+# <span style="font-size:2rem; color:#f8fafc;">⚡ ArqX</span>
 
-## 🛠️ Key Technical Features & Logic
-* **Local-First Architecture:** Implements lightning-fast, structured data storage patterns utilizing underlying relational data schemas optimized for instantaneous text querying.
-* **Automated Telemetry Dashboards:** Aggregates entries seamlessly into multi-axis telemetry visualizations, capturing operational frequency patterns, mood indicators, and project urgency distributions.
-* **Traceable Debug States:** Engineered with transparent error handling pathways, allowing developers to cleanly trace failures or system time-outs back to specific data schema state mismatches.
+<p style="font-size:1.1rem; color:#22c55e;"><strong>AI-Powered Tool & File Conversion Hub</strong></p>
 
-## 🧰 Tech Stack Emulated
-* **Backend Storage Logic:** Python, PostgreSQL relational data structures
-* **Data Visualization Layer:** Heatmaps, dynamic insight tracking widgets, state controllers
-* **Design Philosophy:** Minimalist, data-dense dark mode layout built to improve professional focus
+<p style="font-size:1rem; color:#cbd5e1; line-height:1.8;">
+A robust, modular automation pipeline designed to help teams create and discover custom business tools using natural language, backed by a high-speed, deterministic processing architecture.
+</p>
+
+## <span style="color:#f9fafb; font-size:1.35rem;">The Core Problem</span>
+
+<p style="color:#cbd5e1; font-size:1rem; line-height:1.8;">
+Non-technical business teams lose substantial time copying, pasting, and manually converting mismatched media and text formats because disconnected software platforms fail to integrate cleanly.
+</p>
+
+## <span style="color:#f9fafb; font-size:1.35rem;">Solution & Architecture</span>
+
+<p style="color:#cbd5e1; font-size:1rem; line-height:1.8;">
+<code>ArqX</code> acts as an intelligent internal developer platform that wraps complex scripts into single-purpose micro-tools, accessible through a clean UI gallery or natural language prompts.
+</p>
+
+## <span style="color:#f9fafb; font-size:1.35rem;">Interface & Tool Gallery</span>
+
+<p style="color:#94a3b8; font-size:0.98rem;">All original image references are preserved below.</p>
+
+### <span style="color:#86efac;">Main Pipeline Interface</span>
+
+
+### <span style="color:#86efac;">Modular Tool Gallery Hub</span>
+
+
+### <span style="color:#86efac;">Micro-Tool Processing Pipeline</span>
+
+
+## <span style="color:#f9fafb; font-size:1.35rem;">Technical Highlights</span>
+
+- <span style="color:#e5e7eb;"><strong>Modular Tool Ingestion Gallery</strong></span> — Includes units such as <code>Image Lab</code> for batch SVG, AVIF, and WebP optimization, <code>Text Lab</code> for JSON, CSV, and XML parsing, and <code>PDF Merger Pro</code> for custom page sequencing.
+- <span style="color:#e5e7eb;"><strong>High-Speed Deterministic Pipeline</strong></span> — Uses TypeScript and WebAssembly boundaries for isolated, secure, and fast file manipulation.
+- <span style="color:#e5e7eb;"><strong>Defensive Error Protocols</strong></span> — Applies strict data sanitization to handle corrupted inputs gracefully and keep the pipeline stable under load.
+
+## <span style="color:#f9fafb; font-size:1.35rem;">Tech Stack</span>
+
+- <span style="color:#86efac;"><strong>Core Frameworks:</strong></span> TypeScript, JavaScript, WebAssembly modules
+- <span style="color:#86efac;"><strong>Automation Engineering:</strong></span> Batch processing pipelines, structural data normalization layers
+- <span style="color:#86efac;"><strong>UI / UX Infrastructure:</strong></span> High-fidelity dark mode, real-time conversion timeline trackers
+
+</section>
+
+***
+
+<section style="padding:1.25rem; border:1px solid #1f2937; border-radius:18px; background:linear-gradient(180deg,#0b1120 0%,#111827 100%); margin:1.25rem 0;">
+
+# <span style="font-size:2rem; color:#f8fafc;">📓 NoctaX</span>
+
+<p style="font-size:1.1rem; color:#f59e0b;"><strong>Advanced Research & Metrics Journal</strong></p>
+
+<p style="font-size:1rem; color:#cbd5e1; line-height:1.8;">
+A beautifully designed, local-first internal data management dashboard created to log, structure, and visualize multidimensional qualitative tracking entries and asynchronous research analytics.
+</p>
+
+## <span style="color:#f9fafb; font-size:1.35rem;">The Core Problem</span>
+
+<p style="color:#cbd5e1; font-size:1rem; line-height:1.8;">
+Managing vague, unstructured project logs often leads to information loss. Without clear indexing and quantitative visualization, tracking long-term trends across ongoing research projects becomes difficult.
+</p>
+
+## <span style="color:#f9fafb; font-size:1.35rem;">Solution & Architecture</span>
+
+<p style="color:#cbd5e1; font-size:1rem; line-height:1.8;">
+<code>NoctaX</code> transforms messy qualitative data into an interactive analytics control room, turning raw textual logs into digestible visual insights such as entry heatmaps and priority matrices.
+</p>
+
+## <span style="color:#f9fafb; font-size:1.35rem;">Dashboard Previews</span>
+
+### <span style="color:#fcd34d;">Journal Insights & Frequency Tracker</span>
+
+
+### <span style="color:#fcd34d;">Project State & Research Analytics</span>
+
+
+## <span style="color:#f9fafb; font-size:1.35rem;">Technical Highlights</span>
+
+- <span style="color:#e5e7eb;"><strong>Local-First Architecture</strong></span> — Uses structured data storage patterns and relational schemas optimized for fast text querying.
+- <span style="color:#e5e7eb;"><strong>Automated Telemetry Dashboards</strong></span> — Aggregates entries into multi-axis visualizations for operational frequency, mood indicators, and urgency distributions.
+- <span style="color:#e5e7eb;"><strong>Traceable Debug States</strong></span> — Preserves transparent failure pathways so developers can trace time-outs and schema mismatches cleanly.
+
+## <span style="color:#f9fafb; font-size:1.35rem;">Tech Stack</span>
+
+- <span style="color:#fcd34d;"><strong>Backend Storage Logic:</strong></span> Python, PostgreSQL relational data structures
+- <span style="color:#fcd34d;"><strong>Data Visualization Layer:</strong></span> Heatmaps, dynamic insight widgets, state controllers
+- <span style="color:#fcd34d;"><strong>Design Philosophy:</strong></span> Minimalist, data-dense dark mode layout optimized for professional focus
+
+</section>

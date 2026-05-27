@@ -19,7 +19,7 @@ Regulatory compliance verification is traditionally a manual, slow, and error-pr
 *Place your high-resolution platform screenshots here to demonstrate the visual execution.*
 
 #### Executive Dashboard Overview
-![Compliance Platform Main Interface](YOUR_IMAGE_PATH_HERE/image_23c188.png)
+![Compliance Platform Main Interface](Images/CE1.png)
 
 #### Live Corporate Risk Analysis (e.g., Argos Limited Report)
 ![Live Compliance Report In Action](YOUR_IMAGE_PATH_HERE/image_23c1c7.png)
